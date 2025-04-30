@@ -1,0 +1,71 @@
+.profile {
+    max-width: 400px; /* Genişliği artırdık */
+    margin: 40px auto; /* Ortalamak için */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex; /* Flexbox ile ortalama */
+    flex-direction: column;
+    align-items: center; /* Ortalamayı sağlamak için */
+  }
+  
+  .description {
+    padding: 20px;
+  }
+  
+  .avatar {
+    width: 120px; /* Avatarı büyüttük */
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 24px; /* Adın font boyutunu büyüttük */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .tag,
+  .location {
+    color: #888;
+    font-size: 16px; /* Font boyutlarını biraz büyüttük */
+    margin: 2px 0;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f6f9;
+    border-top: 1px solid #e4e9f0;
+    padding: 15px 0; /* Padding'i biraz artırdık */
+    width: 100%; /* Tam genişlik */
+  }
+  
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    font-size: 14px; /* Etiket fontunu büyüttük */
+    color: #888;
+  }
+  
+  .quantity {
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 18px; /* Sayıların font boyutunu büyüttük */
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
