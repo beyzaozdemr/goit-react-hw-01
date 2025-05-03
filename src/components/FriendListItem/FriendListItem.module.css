@@ -1,0 +1,46 @@
+.friendList {
+    display: flex; /* Arkadaşları yatay olarak sıralamak için */
+    flex-wrap: wrap; /* Taşan elemanları alt satıra alır */
+    list-style-type: none; /* Liste başlarındaki noktaları kaldırır */
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Kartlar arasında boşluk */
+  }
+  
+  /* FriendItem Stil */
+  .friendItem {
+    display: flex;
+    flex-direction: column; /* Yatay değil, dikey yerleşim */
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px; /* Kart genişliği */
+    text-align: center;
+    transition: transform 0.3s ease; /* Hover efekti */
+  }
+  
+  .friendItem:hover {
+    transform: scale(1.05); /* Hover efektiyle biraz büyür */
+  }
+  
+  .friendItem img {
+    width: 50px; /* Avatarın boyutu */
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Avatar ve metin arasında mesafe */
+  }
+  
+  .friendItem .status {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .friendItem.online .status {
+    color: green; /* Online durumu için yeşil renk */
+  }
+  
+  .friendItem.offline .status {
+    color: red; /* Offline durumu için kırmızı renk */
+  }

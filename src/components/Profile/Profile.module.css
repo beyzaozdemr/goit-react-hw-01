@@ -61,11 +61,3 @@
     margin-top: 4px;
     font-size: 18px; /* Sayıların font boyutunu büyüttük */
   }
-  html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
